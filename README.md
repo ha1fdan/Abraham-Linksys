@@ -110,7 +110,6 @@ Access at `http://192.168.50.1` from any device connected to the AP, or `http://
 ```
 GET  /status   → {"status": "online"|"offline", "ip": "x.x.x.x"|null}
 POST /status   → update status (called by wifi_connect.py)
-GET  /history  → list of all status change events since boot
 ```
 
 ---
