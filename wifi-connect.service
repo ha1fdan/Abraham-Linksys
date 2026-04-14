@@ -1,0 +1,16 @@
+[Unit]
+Description=Auto-connect to open Wi-Fi networks and update Flask status
+After=network.target NetworkManager.service
+Wants=NetworkManager.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/pi-scripts/wifi_connect.py
+Restart=on-failure
+RestartSec=10
+User=root
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
