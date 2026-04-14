@@ -15,7 +15,7 @@ import time
 
 # ── Config ────────────────────────────────────────────────────────────────────
 AP_INTERFACE = "wlan0"
-AP_SSID      = "PiHotspot"
+AP_SSID      = "Abraham Linksys"
 AP_PASSWORD  = "raspberry"        # min 8 chars; set "" for open AP
 AP_CHANNEL   = "6"
 AP_IP        = "192.168.50.1"     # Pi's IP on the hotspot network
@@ -65,7 +65,7 @@ def write_dnsmasq_conf():
 dhcp-range={DHCP_RANGE}
 dhcp-option=3,{AP_IP}
 dhcp-option=6,{AP_IP}
-server=8.8.8.8
+server=1.1.1.1
 log-queries
 log-dhcp
 listen-address={AP_IP}
