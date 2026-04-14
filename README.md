@@ -68,7 +68,7 @@ sudo systemctl start wifi-ap.service wifi-connect.service flask-status.service
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `AP_INTERFACE` | `wlan0` | Interface to run the AP on (built-in chip) |
-| `AP_SSID` | `PiHotspot` | AP network name |
+| `AP_SSID` | `Abraham Linksys` | AP network name |
 | `AP_PASSWORD` | `raspberry` | AP password — set `""` for open AP |
 | `AP_CHANNEL` | `6` | WiFi channel |
 | `AP_IP` | `192.168.50.1` | Pi's IP on the hotspot network |
