@@ -13,7 +13,7 @@ A Raspberry Pi that automatically hunts for open WiFi networks, connects with a 
           ↓
       Raspberry Pi
           ↓
-       wlan0  ──→ AP: "PiHotspot"  ──→ your devices
+       wlan0  ──→ AP: "Abraham Linksys"  ──→ your devices
           ↓
     Flask dashboard @ :80
 ```
